@@ -15,15 +15,15 @@ include_directories(${SDL2_INCLUDE_DIRS})
 
 add_executable(foo
   src/main.cpp
-  src/Lib/Color.cpp
-  src/Lib/Game.cpp
-  src/Lib/Point.cpp
-  src/Lib/PointF.cpp
-  src/Lib/Rect.cpp
-  src/Lib/RectF.cpp
-  src/Lib/Renderer.cpp
-  src/Lib/Size.cpp
-  src/Lib/Window.cpp
+  src/SDL2Wrapper/Color.cpp
+  src/SDL2Wrapper/Game.cpp
+  src/SDL2Wrapper/Point.cpp
+  src/SDL2Wrapper/PointF.cpp
+  src/SDL2Wrapper/Rect.cpp
+  src/SDL2Wrapper/RectF.cpp
+  src/SDL2Wrapper/Renderer.cpp
+  src/SDL2Wrapper/Size.cpp
+  src/SDL2Wrapper/Window.cpp
 )
 
 target_link_libraries(foo ${SDL2_LIBRARIES})

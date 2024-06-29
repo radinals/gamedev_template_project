@@ -1,0 +1,3 @@
+[submodule "src/SDL2Wrapper"]
+	path = src/SDL2Wrapper
+	url = https://github.com/radinals/SDL2Wrapper
